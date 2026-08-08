@@ -1,4 +1,4 @@
-package com.example.sharedkernal.entity;
+package com.example.sharedkernel.entity;
 
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
@@ -18,6 +18,7 @@ import java.time.Instant;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
 public abstract class BaseAuditEntity extends BaseEntity {
 

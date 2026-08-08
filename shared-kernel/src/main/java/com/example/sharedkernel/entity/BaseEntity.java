@@ -1,4 +1,4 @@
-package com.example.sharedkernal.entity;
+package com.example.sharedkernel.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

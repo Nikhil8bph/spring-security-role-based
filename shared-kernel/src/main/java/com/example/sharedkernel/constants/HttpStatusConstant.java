@@ -1,4 +1,4 @@
-package com.example.sharedkernal.constants;
+package com.example.sharedkernel.constants;
 
 import lombok.Getter;
 

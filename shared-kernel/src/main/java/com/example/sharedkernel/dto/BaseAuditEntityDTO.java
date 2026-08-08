@@ -1,4 +1,4 @@
-package com.example.sharedkernal.dto;
+package com.example.sharedkernel.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

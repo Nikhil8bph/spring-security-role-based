@@ -1,4 +1,8 @@
 package com.example.identitymanagement.service.impl;
 
-public class AdminServiceImpl {
+import com.example.identitymanagement.service.AdminService;
+import org.springframework.stereotype.Service;
+
+@Service
+public class AdminServiceImpl implements AdminService {
 }

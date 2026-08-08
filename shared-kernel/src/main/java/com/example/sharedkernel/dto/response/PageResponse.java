@@ -1,9 +1,11 @@
-package com.example.sharedkernal.dto.response;
+package com.example.sharedkernel.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.util.List;
 
 @Getter
 @Setter
@@ -14,5 +16,5 @@ public class PageResponse<T> {
     private Long totalRecords;
     private Long currentPage;
     private Long pageSize;
-    private T data;
+    private List<T> data;
 }

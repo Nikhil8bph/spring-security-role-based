@@ -1,4 +1,4 @@
-package com.example.sharedkernal.dto;
+package com.example.sharedkernel.dto;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

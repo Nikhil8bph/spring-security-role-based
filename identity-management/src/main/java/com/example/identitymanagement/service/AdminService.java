@@ -1,4 +1,4 @@
 package com.example.identitymanagement.service;
 
-public class AdminService {
+public interface AdminService {
 }

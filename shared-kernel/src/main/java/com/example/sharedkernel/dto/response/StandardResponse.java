@@ -1,6 +1,6 @@
-package com.example.sharedkernal.dto.response;
+package com.example.sharedkernel.dto.response;
 
-import com.example.sharedkernal.constants.HttpStatusConstant;
+import com.example.sharedkernel.constants.HttpStatusConstant;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
