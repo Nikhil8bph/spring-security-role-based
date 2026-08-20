@@ -1,12 +1,9 @@
 package com.example.identitymanagement.dto.response;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.PositiveOrZero;
-
+import java.util.Set;
 import java.util.UUID;
 
-record RoleResponse(
+public record RoleResponse(
         UUID id,
         String name,
         Long roleLevel,

@@ -1,6 +1,8 @@
 package com.example.identitymanagement.mapper;
 
 import com.example.identitymanagement.dto.UserDTO;
+import com.example.identitymanagement.dto.request.RegisterRequest;
+import com.example.identitymanagement.dto.response.UserResponse;
 import com.example.identitymanagement.entity.User;
 import org.mapstruct.Mapper;
 
@@ -8,4 +10,8 @@ import org.mapstruct.Mapper;
 public interface UserMapper {
     UserDTO toDTO(User user);
     User toEntity(UserDTO userDTO);
+
+    UserDTO fromRequestToDTO(RegisterRequest request);
+
+    UserResponse fromDTOToResponse(UserDTO userDTOSaved);
 }

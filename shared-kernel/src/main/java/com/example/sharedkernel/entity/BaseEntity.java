@@ -22,6 +22,7 @@ public abstract class BaseEntity {
     private UUID id;
 
     @TenantId
+    @Column(name = "tenant_id", nullable = false, length = 64, updatable = false)
     private String tenantId;
 
     @Version

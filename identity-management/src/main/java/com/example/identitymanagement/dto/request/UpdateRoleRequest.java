@@ -1,7 +1,13 @@
 package com.example.identitymanagement.dto.request;
 
-public class UpdateRoleRequest extends RuntimeException {
-  public UpdateRoleRequest(String message) {
-    super(message);
-  }
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.PositiveOrZero;
+
+public record UpdateRoleRequest(
+        @NotBlank String name,
+        @NotNull @PositiveOrZero Long roleLevel,
+        @NotBlank String description,
+        Boolean canDelete,
+        Boolean canUpdate) {
 }

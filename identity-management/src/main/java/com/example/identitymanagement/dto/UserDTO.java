@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.HashSet;
 import java.util.Set;
 
 @Getter
@@ -19,5 +20,5 @@ public class UserDTO extends BaseAuditEntityDTO {
     private String password;
     private String email;
     private String mobileNumber;
-    private Set<RoleDTO> roles;
+    private Set<RoleDTO> roles = new HashSet<>();
 }
